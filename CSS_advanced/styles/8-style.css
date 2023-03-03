@@ -112,5 +112,5 @@ h6 {
 }
 
 body {
-    min-height: var(--line-height-base);
+    line-height: var(--line-height-base);
 }
