@@ -150,5 +150,5 @@ a {
     font-family: var(--font-family-title);
     font-size: var(--font-size-xx-large);
     font-weight: var(--font-weight-bold);
-    text-emphasis-color: var(--section-title-color);
+    color: var(--section-title-color);
 }
