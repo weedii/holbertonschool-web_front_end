@@ -125,6 +125,6 @@ a {
     --section-header-align: center;
 }
 
-.section-tagline {
+.section-header {
     text-align: var(--section-header-align);
 }
