@@ -1,7 +1,15 @@
 @import url("/CSS_advanced/normalize.css");
 
-*::before::after {
+* {
     box-sizing: border-box;
+}
+
+selector::before {
+    /* styles for ::before */
+}
+
+selector::after {
+    /* styles for ::after */
 }
 
 html {
