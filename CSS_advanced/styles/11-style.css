@@ -135,7 +135,7 @@ a {
 }
 
 .section-tagline {
-    font-size: var(--font-family-title);
+    font-family: var(--font-family-title);
     text-transform: var(--section-tagline-transform);
     font-weight: var(--font-weight-bold);
 }
