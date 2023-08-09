@@ -1,0 +1,10 @@
+$text-color-btn: #ff0000;
+$text-color-btn-hover: #00ff00;
+
+button {
+  color: $text-color-btn;
+
+  &:hover {
+    color: $text-color-btn-hover;
+  }
+}
