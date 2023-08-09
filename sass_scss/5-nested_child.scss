@@ -4,9 +4,9 @@ $text-color-class_red:#FF0000;
 body {
     color: $text-color-body;
 
-    body > .red {
+    .red {
         &:first-child{
             color: $text-color-class_red;
-        }
+        };
     }
 }
