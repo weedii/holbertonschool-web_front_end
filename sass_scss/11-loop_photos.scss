@@ -1,7 +1,7 @@
 @import "list-names";
 
 @each $name in $list-names {
-  .bg-#{$name} {
+  .#{$name} {
     background-image: url("photos/#{$name}.jpg");
   }
 }
