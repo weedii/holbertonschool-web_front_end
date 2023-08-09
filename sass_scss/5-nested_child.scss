@@ -1,12 +1,10 @@
-$text-color-body: #3D3D3D;
-$text-color-class_red:#FF0000;
+$text-color-body: #3d3d3d;
+$text-color-class_red: #ff0000;
 
 body {
-    color: $text-color-body;
+  color: $text-color-body;
 
-    .red {
-        >:first-child{
-            color: $text-color-class_red;
-        };
-    }
+  > .red {
+    color: $text-color-class_red;
+  }
 }
