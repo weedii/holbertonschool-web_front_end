@@ -396,6 +396,10 @@ ul.row {
     display: flex;
 }
 
+.nav .nav-item+.nav-item {
+    margin: var(--nav-item-margin);
+}
+
 .nav .nav-item {
     font-family: var(--nav-item-font-family);
     font-weight: var(--nav-item-font-weight);
@@ -430,9 +434,6 @@ ul.row {
     width: 100%;
 }
 
-.nav .nav-item + .nav-item {
-    margin: var(--nav-item-margin);
-}
 
 /* Header
         ============================= */
