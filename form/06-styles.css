@@ -314,7 +314,7 @@ a:active {
 
 .button-primary:hover {
     color: var(--color-primary);
-    background-color: var(--color-white);
+    background: var(--color-white);
 }
 
 /* Helpers
