@@ -30,7 +30,7 @@
         const email = c[1].split("=")[1];
 
         const p = document.createElement("p");
-        p.textContent = `Cookies: ${firstname}, ${email}`;
+        p.innerHTML = `Cookies: firstname=${firstname}; email=${email}`;
         document.body.appendChild(p);
       }
     </script>
