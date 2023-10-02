@@ -20,12 +20,15 @@
 
         function createStore() {
           const ul = document.createElement("ul");
-          for (i = 0; i < availableItems.length; i++) {
+
+          availableItems.forEach((item) => {
             const li = document.createElement("li");
-            li.textContent = availableItems[i];
-            li.addEventListener("click", addItemToCart(availableItems[i]));
+            li.textContent = item;
+            li.addEventListener("click", () => {
+              addItemToCart(item);
+            });
             ul.appendChild(li);
-          }
+          });
           document.body.appendChild(ul);
         }
 
